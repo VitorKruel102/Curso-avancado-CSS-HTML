@@ -1,13 +1,19 @@
-Conceitos de CSS:
-    
-    font-size ---------> Altera tamanho da fonte;
-    color -------------> Muda a cor da letra;
-    background --------> Muda cor de fundo;
-    width -------------> Largura;
-    height ------------> Altura;
-    margin ------------> Margem;
-    padding -----------> Margem interne;
-    display -----------> Block(Linhas), inline(Mesma Linha)
+Conceitos de CSS:   
+    font-size -----------> Altera tamanho da fonte;
+    font-family ---------> Fonte da letras;
+    color ---------------> Muda a cor da letra;
+    background ----------> Muda cor de fundo;
+    width ---------------> Largura;
+    height --------------> Altura;
+    margin --------------> Margem;
+    padding -------------> Margem interne;
+    display -------------> Block(Linhas), inline(Mesma Linha); flex(Criar colunas);
+    text-transform ------> uppercase(Letras Maiusculas), lowercase (Letras Minusculas), capitalize(Primeira Letra Maiuscula);
+    text-decoration -----> None (Para eliminar traçado dos Links);
+    justify-content -----> center(ALinhamento ao centro), left(Alinhamento a esquerda), right(Alinhamento a direita). space-between(Itens alinhados nas extremidades.)
+    background-image ----> Coloca uma imagem de fundo.
+    background-size -----> cover(Coloca a imagem inteira)
+    background-position -> center(Alinha a posição da imagem ao centro)
 
 
 Estrutura do CSS:
@@ -19,3 +25,4 @@ Estrutura do CSS:
 
     .minha-classe {
     }
+
