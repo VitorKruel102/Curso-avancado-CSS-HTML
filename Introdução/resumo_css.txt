@@ -1,0 +1,21 @@
+Conceitos de CSS:
+    
+    font-size ---------> Altera tamanho da fonte;
+    color -------------> Muda a cor da letra;
+    background --------> Muda cor de fundo;
+    width -------------> Largura;
+    height ------------> Altura;
+    margin ------------> Margem;
+    padding -----------> Margem interne;
+    display -----------> Block(Linhas), inline(Mesma Linha)
+
+
+Estrutura do CSS:
+    TAG {
+    }
+
+    #meu-id {
+    }
+
+    .minha-classe {
+    }
