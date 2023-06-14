@@ -1,0 +1,52 @@
+Conceitos de HTML:
+    <HTML> -------> Escopo principal;
+    <HEAD> -------> Janela;
+    <TITLE> ------> Titulo da página;
+    <BODY> -------> Corpo;
+    <HEADER> -----> Cabeçario;
+    <MAIN> -------> Corpo principal;
+    <DIV> --------> Conteiner genêrico; (block)
+    <SPAN> -------> Conteiner genêrico; (inline)
+    <SECTION> ----> Sessão;
+    <ACTICLE> ----> Artigo;
+    <FOOTER> -----> Rodapé;
+    <ADDRESS> ----> Endereço;
+    <H> ----------> Titulo;
+    <P> ----------> Paragrafo;
+    <SMALL> ------> Letras pequenas;
+    <B> ----------> Negrito;
+    <A> ----------> Link;
+        target='_black' (Abrir em uma nova Aba)
+        rel='nofollow'(Não conhece a fonte) 'sponsored'(Para publicidade)
+    <UL> ---------> Lista Não Ordenada;
+    <OL> ---------> Lista Ordenada;
+        <LI>------> Itens da Lista;
+    <Q> -> Citação;
+    <BLOCKQUOTE> -> Bloco de citação;
+    <BR> ---------> Quebra Linha;
+    <IMG> --------> Imagem;
+    <I> ----------> Itálico;
+    <EM> ---------> Ênfase;
+    <SUP> --------> Subir letra (H²o);
+    <SUB> --------> Descer letra;
+    <HR> ---------> Linha horizontal;
+    <NAV> --------> Menu;
+
+    
+O que é Meta Viewport? 
+    Ela foi desenvolvida pela Apple, é utilizada
+    para os dispositivos moveis. Ele formata 
+    automaticamente para celulares.
+
+
+Atributos:
+    Id ----> Utilizado para elementos unicos.
+        CSS: #meu-id {}
+    Class -> Utilizado para um conjunto de tags semelhantes.
+        CSS: .minha-classe {}
+
+
+
+
+
+    
