@@ -14,7 +14,7 @@ Conceitos de CSS:
     background-image ----> Coloca uma imagem de fundo.
     background-size -----> cover(Coloca a imagem inteira)
     background-position -> center(Alinha a posição da imagem ao centro)
-    box-sizing ----------> border-box(Colocar o padding e a bordar no calculo do Width e Height)
+
 
 Estrutura do CSS:
     TAG {
@@ -25,4 +25,8 @@ Estrutura do CSS:
 
     .minha-classe {
     }
+
+------------------------------
+| Entendendo sobre Box-Model |
+------------------------------
 
