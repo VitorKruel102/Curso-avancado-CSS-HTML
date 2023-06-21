@@ -17,7 +17,10 @@ Conceitos de CSS:
     background-position -> center(Alinha a posição da imagem ao centro)
     box-sizing ----------> border-box(As bordas e os padding são usados junto com a largura) Aula 383
     list-style ----------> none(Remove marcação das listas);
-    
+    border-collapse -----> collapse(Cola as bordas da tabelas); Aula 385
+
+
+
 Estrutura do CSS:
     TAG {
     }

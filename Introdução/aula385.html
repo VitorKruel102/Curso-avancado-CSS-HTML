@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        .responsive-table {
+            overflow: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 800px;
+        }
+
+        caption {
+            font-size: 16px;
+            padding: 5px;
+            font-style: italic;
+            caption-side: bottom;
+            text-align: right;
+        }
+
+        table td, table th {
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+
+        tfoot td {
+            text-align: right;
+            padding-right: 8px;
+        }
+
+        .fundo_table {
+            background: #e8e5e5;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit.</p>
+    <div class="responsive-table">
+        <table>
+            <thead class="fundo_table">
+                <tr>
+                    <th>Ticker</th>
+                    <th>Data</th>
+                    <th>Open</th>
+                    <th>Close</th>
+                    <th>Low</th>
+                    <th>High</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>ABEV3</th>
+                    <th>2023/06/21</th>
+                    <th>10,52</th>
+                    <th>10,52</th>
+                    <th>10,52</th>
+                    <th>10,52</th>
+                </tr>
+                <tr>
+                    <th>ABEV3</th>
+                    <th>2023/06/22</th>
+                    <th>22,33</th>
+                    <th>22,32</th>
+                    <th>22,3</th>
+                    <th>22,3</th>
+                </tr>
+                <tr>
+                    <th>ABEV3</th>
+                    <th>2023/06/23</th>
+                    <th>44,52</th>
+                    <th>4,52</th>
+                    <th>44,52</th>
+                    <th>44,52</th>
+                </tr>
+                <tr>
+                    <th>ABEV3</th>
+                    <th>2023/06/24</th>
+                    <th>55,52</th>
+                    <th>1760,52</th>
+                    <th>1660,52</th>
+                    <th>1880,52</th>
+                </tr>
+            </tbody>
+            <tfoot class="fundo_table">
+                <tr>
+                    <td colspan="6">Total: 52565,52</td>
+                </tr>
+            </tfoot>
+            <caption> B3 - Bolsa de Valores Brasileira </caption>
+        </table>
+    </div>    
+    </body>
+</html>
