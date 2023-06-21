@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        label{
+            display: block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="http://www.google.com" method="get" target="_blank"> 
+        <!-- Action: Envia o formulario para um local -->
+        <!-- target: _blank (Abre uma aba nova) -->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Primeiro Nome">   
+                <!-- name= É utilizado no BACK-END --> 
+            </div>
+            <div style="margin: 10px 0px;">
+                <label for="name">Data Nasc. :</label>
+                <input type="date" name="nascimento" id="nascimento" disabled>    
+                <!-- disabled = desativado --> 
+            </div>
+            <div style="margin: 10px 0px;">
+                <label for="name">Telefone :</label>
+                <input type="number" name="telefone" id="telefone" placeholder="(99) 9 9999-9999" readonly>    
+                <!-- placeholder = Adicionar um exemplo do que esperamos que o usuario digite -->
+                <!-- readonly = Pode interagir, mas não pode editar -->
+            </div>
+            <div style=" margin-bottom: 20px;">
+                <label for="" style="display: inline;">É um Desenvolvedor:</label>
+                <input type="checkbox" id="dev" checked>
+                <!-- checked= Deixar marcado -->
+                <label style="display: inline;">Sim</label>
+            </div>
+            <div style=" margin-bottom: 20px;">
+                <label for="">Gênero:</label>
+                <input type="radio" id="Masculino" name="genero" checked>
+                <!-- radio= deixa apenas marcar uma opção -->
+                <label for="Masculino" style="display: inline;">Masculino</label>
+                <input type="radio" id="Feminino" name="genero" checked>
+                <!-- radio= deixa apenas marcar uma opção -->
+                <label for="Feminino" style="display: inline;">Fêminino</label>
+            </div>
+            <div>
+                <button type="reset">Resetar</button>
+                <button type="submit">Enviar</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
