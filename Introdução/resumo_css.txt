@@ -10,12 +10,14 @@ Conceitos de CSS:
     display -------------> Block(Linhas), inline(Mesma Linha); flex(Criar colunas);
     text-transform ------> uppercase(Letras Maiusculas), lowercase (Letras Minusculas), capitalize(Primeira Letra Maiuscula);
     text-decoration -----> None (Para eliminar traçado dos Links);
-    justify-content -----> center(ALinhamento ao centro), left(Alinhamento a esquerda), right(Alinhamento a direita). space-between(Itens alinhados nas extremidades.)
+    justify-content -----> center(Alinhamento Horizontal ao centro), left(Alinhamento a esquerda), right(Alinhamento a direita). space-between(Itens alinhados nas extremidades.) Aula 384
+    align-items ---------> center(Alinhamento vertical ao centro); Aula 384
     background-image ----> Coloca uma imagem de fundo.
     background-size -----> cover(Coloca a imagem inteira)
     background-position -> center(Alinha a posição da imagem ao centro)
-
-
+    box-sizing ----------> border-box(As bordas e os padding são usados junto com a largura) Aula 383
+    list-style ----------> none(Remove marcação das listas);
+    
 Estrutura do CSS:
     TAG {
     }
