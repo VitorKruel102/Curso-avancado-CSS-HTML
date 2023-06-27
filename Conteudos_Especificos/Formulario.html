@@ -49,6 +49,33 @@
                 <label for="Feminino" style="display: inline;">Fêminino</label>
             </div>
             <div>
+                <label for="">Date:</label>
+                <input type="date" name="date" id="date" value="2020-04-20" style="margin-bottom: 10px;">
+                <label for="">Datetime:</label>
+                <input type="datetime-local" name="datetime" id="datetime" value="2020-04-20T20:00" style="margin-bottom: 10px;">
+                <!-- O type "datetime" não funciona no Chrome, precisamos utilizar o "datetime-local"-->
+                <label for="">Time:</label>
+                <input type="time" name="time" id="time" style="margin-bottom: 10px;">
+            </div>
+            <div>
+                <label for="">Cor preferida:</label>
+                <input type="color" name="Cor" id="Cor" style="margin-bottom: 10px">
+            </div>
+            <div>
+                <label for="">E-mail:</label>
+                <input type="email" name="E-mail" id="E-mail" style="margin-bottom: 10px" placeholder="ex:. email@email.com">
+            </div>
+            <div>
+                <label for="">Sua foto:</label>
+                <input type="file" name="file" id="file" style="margin-bottom: 10px" accept=".png,.svg,images/*" multiple>
+                <!-- accept(Delimita extenções de arquivos), multiple(Aceita enviar mais de um arquivo)-->
+            </div>
+            <div>
+                <label for="">Número:</label>
+                <input type="number" name="numero" id="numero" placeholder="Digite um número" min="10" max="50" style="margin-bottom: 10px">
+            </div>
+
+            <div>
                 <button type="reset">Resetar</button>
                 <button type="submit">Enviar</button>
             </div>
