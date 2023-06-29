@@ -1,7 +1,7 @@
 Conceitos de CSS:   
     font-size -----------> Altera tamanho da fonte;
     font-family ---------> Fonte da letras;
-    color ---------------> Muda a cor da letra;
+    color ---------------> Muda a cor da letra; (color: initial == Para a tag pai não passar a cor para a tag filha)
     background ----------> Muda cor de fundo;
     width ---------------> Largura;
     height --------------> Altura;

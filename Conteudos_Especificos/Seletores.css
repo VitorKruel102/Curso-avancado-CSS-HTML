@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    color: initial;
+}
+
+div {
+    border: 1px solid black;
+}
+
+div p {
+    color: red;
+}
+
+/*Só vai pintar o P que vem abaixo do H1
+Se tiver mais P abaixos do H1 não vai pintar*/
+div h1+p {  
+    color: red;
+}
+
+/*Só vai pintar todos P que vem abaixo do H1
+https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator
+*/
+div h1~p {  
+    color: red;
+}
+
+body > div > h1 {
+    color: green;
+}
+
+body > div > h1,
+body > div > h2 {
+    color: green;
+}
+
+#id-header {
+    border: 1px solid black;
+}
+
+.class-header {
+    border: 1px solid black;
+}
+
+[meu-atributo] {
+    color: green;
+}
+
+[meu-atributo="valor"] {
+    color: green;
+}
+
+/*Se nosso atributo tiver varios valores, com o ~ podemos 
+aplicar a regra de coloração do meu-atributo se tiver 
+pelo menos o nome valor
+meu-atributo='Valor Valor2 Valor3'
+*/
+[meu-atributo~="valor"] {
+    color: green;
+}
+
+/*Se nosso atributo tiver varios valores e tem separação por -
+, com o | podemos aplicar a regra de coloração do meu-atributo se tiver 
+pelo menos o nome valor. 
+meu-atributo='Valor-1 Valor-2 Valor-3'
+*/
+[meu-atributo|="valor"] {
+    color: green;
+}
+
+/*Se nosso atributo tiver varios valores e começar pelo "valor",
+ele já ira aplicar a coloração.
+meu-atributo="valor qualquercoisa coisa outra"
+*/
+[meu-atributo^="valor"] {
+    color: green;
+}
+
+/*Se nosso atributo tiver varios valores e ele contem "valor",
+ele já ira aplicar a coloração.
+meu-atributo="valor qualquercoisa coisa outra"
+*/
+[meu-atributo*="qualquercoisa"] {
+    color: green;
+}
