@@ -1,0 +1,56 @@
+/*Utilizado para fazer a transição dos efeitos*/
+#id_heading {
+    transition: all 1s ease-in-out
+}
+
+/*Quando passar o mouse sobre o elemento*/
+#id_heading:hover {
+    color: red;
+}
+
+/*Quando clicamos no elemento*/
+a:active {
+    color: darkgoldenrod;
+}
+
+/*Links que não foi visitado*/
+a:link {
+    color: red;
+}
+
+/*Links que já visitei*/
+a:visited {
+    color: green;
+}
+
+/*Ele seleciona o número de irmaõs que queremos.
+Vamos dizer que temos 6 li's e queremos pintar a letrar
+do primeiro e segundo de verde:*/
+li:nth-child(2) {
+    color: green;
+}
+
+/*Apenas os pares*/
+li:nth-child(even) {
+    color: green;
+}
+
+/*Apenas os impares*/
+li:nth-child(odd) {
+    color: green;
+}
+
+/*Quando a Tag A não tiver a classe "meio" ele vai colorir*/
+a:not(.meio) {
+    color: green;
+}
+
+/*Utilizado para quando tiver escrevendo no input*/
+input:focus {
+    box-shadow: 0 0 5px black;
+}
+
+/*Utilizado quando bloqueamos um input*/
+input:disabled {
+    cursor: not-allowed;
+}
