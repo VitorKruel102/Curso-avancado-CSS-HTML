@@ -1,0 +1,25 @@
+li::after {
+    content: '-'; /*Adiciona esse traço após o li*/
+}
+
+li::before {
+    content: '-'; /*Adiciona esse traço antes o li*/
+}
+
+p::first-letter { /*Altera a primeira letra*/
+    font-size: 50px;
+}
+
+p::first-line { /*Altera a primeira linha*/
+    font-size: 50px;
+}
+
+p::selection { /*Tudo que for selecionado na página é alterado*/
+    background-color: green;
+    color: white;
+}
+
+p::placeholder { /*Altera o placeholder*/
+    background-color: green;
+    color: white;
+}
