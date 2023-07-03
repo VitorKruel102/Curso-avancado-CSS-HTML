@@ -28,7 +28,7 @@ Conceitos de CSS:
         clear: right (Direita)
         clear: both (Ambos os lados)
 
-
+    scroll-behavior -----> smooth (Suaviza o scroll quando clicado em um link)
 
 Estrutura do CSS:
     TAG {
