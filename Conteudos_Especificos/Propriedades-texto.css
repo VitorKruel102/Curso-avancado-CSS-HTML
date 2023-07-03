@@ -1,0 +1,16 @@
+p {
+    color: black; 
+    background-color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 900; /* Intensidade da cor da letra (100-900 ou bold)*/
+    /* direction: rtl; Direção do texto da direita para esquerda*/
+    letter-spacing: 2px; /*Espaçamento entre as letras*/
+    word-spacing: 4px; /*Espaçamento entre as palavras*/
+    line-height: 25px; /*Tamanho de cada linha*/
+    text-align: justify;
+    text-decoration: line-through; /*Utilizado para riscar um texto*/
+    text-indent: 50px;  /*Inicio do paragrafo*/
+    text-shadow: 1px 1px 5px red; /* Sombra 1px(Lado) 1px(baixo e alto) 5px(esfomaçado a sombra) */
+    text-transform: capitalize;
+}
