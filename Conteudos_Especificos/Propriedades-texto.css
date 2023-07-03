@@ -13,4 +13,5 @@ p {
     text-indent: 50px;  /*Inicio do paragrafo*/
     text-shadow: 1px 1px 5px red; /* Sombra 1px(Lado) 1px(baixo e alto) 5px(esfomaçado a sombra) */
     text-transform: capitalize;
+    
 }
