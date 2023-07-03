@@ -6,6 +6,9 @@
 
 .grid {
     padding: 15px;
+    padding-top: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .grid::after {
@@ -26,6 +29,53 @@
     height: 100%;
     background: red;
 }        
+
+.menu-navegacao {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: black;
+
+}
+
+.menu-navegacao ul {
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.menu-navegacao ul li {
+    float: left;
+    margin: 20px;
+}
+
+.menu-navegacao ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: all 300ms ease-in-out;
+}
+
+.menu-navegacao ul li a:hover {
+    color: #333; 
+}
+
+#helf {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 73px;
+    height: 100vh;
+    background: violet;
+}
+
+.helf-content {
+    max-width: 1200px;
+    padding: 0 18px;
+    margin: 0 auto;
+}
 
 @media (max-width: 500px) {
     .grid .col {
