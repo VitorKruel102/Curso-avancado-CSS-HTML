@@ -1,0 +1,41 @@
+<!--Entendendo a medida "rem"-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--
+        O 'rem' se baseia na medida principal da página, ou seja, sua 
+        refência é o tamanho da fonte do HTML.
+        
+        Utilizamos o font-size: 62.5% no HTML para que o 1rem seja igual a 10px
+    
+        Utilizamos este formado para ter uma fonte relativo, caso o usuário
+        mude o tamanho da fonte do navegador, nosso site ficará proporcional
+        ao desejo do usuário. Caso fosse em px a página teria um tamanho absoluto.
+    -->
+    <style>
+        html {
+            font-size: 62.5%;
+        }
+        .pai {
+            width: 30rem; /* 30rem == 300px*/
+        }
+        .filho {
+            font-size: 1.6rem; /* 1.6rem == 16px*/
+        }
+
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <p class="filho">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Nihil distinctio id laborum dolores quasi eligendi provident 
+            quaerat culpa voluptate suscipit et alias in placeat iusto 
+            rerum, iste sunt nam dolore!
+        </p>
+    </div>
+</body>
+</html>
