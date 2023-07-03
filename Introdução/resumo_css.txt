@@ -19,9 +19,15 @@ Conceitos de CSS:
     list-style ----------> none(Remove marcação das listas);
     border-collapse -----> collapse(Cola as bordas da tabelas); Aula 385
 
-    overflow -----------> Utilizado para tratar dados que passam da bloco
+    overflow ------------> Utilizado para tratar dados que passam da bloco
                 hidden : Esconde os dados   
                 auto: Utiliza um scroll
+
+    clear ---------------> Utilizado para não deixar que um elemento fica ao lado desse bloco
+        clear: left (Esquerda)
+        clear: right (Direita)
+        clear: both (Ambos os lados)
+
 
 
 Estrutura do CSS:
