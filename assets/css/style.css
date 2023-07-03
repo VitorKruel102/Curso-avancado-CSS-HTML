@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.texto {
+    overflow: auto; /* Lidar com conteúdos que passam do bloco*/
+    background: red;
+    
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+    
+    margin: 0 auto 50px auto; 
+    padding: 10px;
+    border: 3px solid black 
+}
