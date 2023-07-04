@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .flex-container {
+            display: inline-flex;   /* Bloco pai fica como inline*/
+            display: flex;          /* Bloco pai fica como Block*/
+            flex-direction: row;    /* Muda a linha de referencia, ou row(horizontal) ou colums(vertical)*/
+            justify-content: space-between;
+            /*flex-wrap: wrap; Ele permite que os elementos quebrem para não sair do elemento*/
+        
+            align-items: stretch;
+
+            background: orange;
+        }
+        .flex-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            flex-grow: 1; /* Distribui os elementos conforme o espaço disponivel. (Width)*/
+            flex-shrink: 0; /*0= Permito que diminua, 1=Não permuto*/
+            flex-basis: 320px; /*Tamanho inicial*/
+            
+            flex: 1 1 200px;
+
+            background: red;
+            height: 40px;
+
+            margin: 0 10px;          
+        }
+
+        .flex-item:nth-child(2) {
+            flex: 2 1 600px;
+            background: green;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item" style="width: 300px">Lorem</div>
+        <div class="flex-item" style="width: 600px">Dois</div>
+        <div class="flex-item" style="width: 600px">Três</div>
+    </div>
+</body>
+</html>
